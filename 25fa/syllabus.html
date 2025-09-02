@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159856695-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-159856695-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="columbia,course,robotics,computational robotics,robot learning">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>COMS4733: Computational Aspects of Robotics</title>
+    <link rel="icon"  href="resources/favicon.ico" />
+    <link rel="shortcut icon"  href="resources/favicon.ico" />
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+	    <div class="container">
+      <a class="navbar-brand" href="index.html">COMS4733 - Fall 2025</a>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <div class="collapse navbar-collapse" id="navbarToggle">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="logistics.html">Logistics</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="syllabus.html">Syllabus</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="project.html">Course Project</a>
+            </li>
+          </ul>
+      </div>
+      </div>
+    </nav>
+
+    <div class="content">
+
+      <div class="bg-no-highlight">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-11">
+              <h2>Syllabus</h2>
+            </div>
+          </div>
+          <div class="section">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Schedule</h4>
+                <br><br>
+                <div class="row" style="margin-top:20px;">
+                  <div class="col-md-12">
+                    <table class="table" id="schedule">
+
+                      <tr class="schedule-header">
+                        <th>Date</th><th>Topic</th><th>Instructor</th><th>Assignments</th>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 1</strong><br>Tue, Sep 3</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Introduction to Computational Robotics</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 2</strong><br>Mon, Sep 8</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Coordinate Transformations</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Website: Hanxiao<br>
+                          Apply for credits (Yunzhu)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 2</strong><br>Wed, Sep 10</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Configuration Space and Task Space</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          H1 issued<br>
+                          Office hours: Calendly<br>
+                          2 hours (Yunzhu/Kaifeng/Hanxiao)<br>
+                          1 hour (Yixuan)<br>
+                          15 min slots<br>
+                          Google Cloud (Kaifeng tutorial)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 3</strong><br>Mon, Sep 15</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Forward Kinematics</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Homework (30%)<br>
+                          AWS Academic Credit (Kaifeng tutorial)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 3</strong><br>Wed, Sep 17</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Inverse Kinematics</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Midterm (30%)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 4</strong><br>Mon, Sep 22</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Discrete Search Algorithms</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Project (40%)<br>
+                          Proposal (5%)<br>
+                          2-3 people teams
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 4</strong><br>Wed, Sep 24</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Probabilistic Roadmap (PRM)</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          H1 due / H2 issued<br>
+                          M1 (5%)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 5</strong><br>Mon, Sep 29</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Rapidly-exploring Random Trees (RRT)</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li (recording)
+                        </td>
+                        <td class="assignments-cell">
+                          Project proposal due<br>
+                          M2 (5%)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 6</strong><br>Wed, Oct 1</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Control: Position Control and Impedance Control</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Pre (10%)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 6</strong><br>Mon, Oct 6</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Control: Position Control and Impedance Control (continued)</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Report (15%)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 7</strong><br>Wed, Oct 8</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Camera Models: Pinhole Camera and Camera Calibration</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          H2 due<br>
+                          Canvas / Ed Discussion
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 8</strong><br>Mon, Oct 13</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Depth Cameras, LiDAR, Sensors, and SLAM</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Midterm (Yunzhu)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 8</strong><br>Wed, Oct 15</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Midterm</span> Written Exam</td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          H1 (Yunzhu)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 9</strong><br>Mon, Oct 20</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Simulation and Robotics Software</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Kaifeng
+                        </td>
+                        <td class="assignments-cell">
+                          Yunzhu (Fri 9-11 am)<br>
+                          H2 (Yunzhu)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 9</strong><br>Wed, Oct 22</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Supervised Learning for Robotics</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Yixuan
+                        </td>
+                        <td class="assignments-cell">
+                          H3 issued<br>
+                          Milestone #1<br>
+                          Yixuan (Thu 9-10 am)<br>
+                          H3: Colab (camera calibration, reconstruction with SAM/DINO)<br>
+                          (Hanxiao & Kaifeng)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 10</strong><br>Mon, Oct 27</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Convolutional Neural Networks</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Kaifeng (Wed 9-11 am)
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 10</strong><br>Wed, Oct 29</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Vision Foundation Models</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Hanxiao
+                        </td>
+                        <td class="assignments-cell">
+                          Hanxiao (Mon 9-11 am)<br>
+                          GenAI: you can use, but explain how you use it
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row holiday-row">
+                        <td class="date-cell"><strong>Week 11</strong><br>Mon, Nov 3</td>
+                        <td class="topic-cell">Academic Holiday</td>
+                        <td class="instructor-cell"></td>
+                        <td class="assignments-cell"></td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 11</strong><br>Wed, Nov 5</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Model Learning for Robotics</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          H3 due
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 12</strong><br>Mon, Nov 10</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Model-Based Planning and Trajectory Optimization</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 12</strong><br>Wed, Nov 12</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Imitation Learning</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 13</strong><br>Mon, Nov 17</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Reinforcement Learning I</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                          Milestone #2
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 13</strong><br>Wed, Nov 19</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Reinforcement Learning II</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 14</strong><br>Mon, Nov 24</td>
+                        <td class="topic-cell"><p><span class="label label-lecture text-base">Lecture</span> Large Language Models, Vision-Language Models, and Vision-Language-Action Models</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Prof. Yunzhu Li
+                        </td>
+                        <td class="assignments-cell">
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row holiday-row">
+                        <td class="date-cell"><strong>Week 14</strong><br>Wed, Nov 26</td>
+                        <td class="topic-cell">Academic Holiday</td>
+                        <td class="instructor-cell"></td>
+                        <td class="assignments-cell"></td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 15</strong><br>Mon, Dec 1</td>
+                        <td class="topic-cell"><p><span class="label label-presentation text-base">Presentation</span> Project Presentations #1 (12 presentations)</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Students
+                        </td>
+                        <td class="assignments-cell">
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 15</strong><br>Wed, Dec 3</td>
+                        <td class="topic-cell"><p><span class="label label-presentation text-base">Presentation</span> Project Presentations #2 (12 presentations)</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Students
+                        </td>
+                        <td class="assignments-cell">
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Week 16</strong><br>Mon, Dec 8</td>
+                        <td class="topic-cell"><p><span class="label label-presentation text-base">Presentation</span> Project Presentations #3 (12 presentations)</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Students
+                        </td>
+                        <td class="assignments-cell">
+                        </td>
+                      </tr>
+
+                      <tr class="schedule-row">
+                        <td class="date-cell"><strong>Final</strong><br>Dec 15</td>
+                        <td class="topic-cell"><p><span class="label label-due text-base">Due</span> Final Project Report</p>
+                        </td>
+                        <td class="instructor-cell">
+                          Students
+                        </td>
+                        <td class="assignments-cell">
+                          Final report due
+                        </td>
+                      </tr>
+
+                    </table>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="navbar navbar-expand-md navbar-dark" style="color: white;">
+      <div class="container">
+        &copy; 2025 Columbia University COMS4733
+      </div>
+    </footer>
+
+  </body>
+</html> 
